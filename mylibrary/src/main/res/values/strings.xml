@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Library</string>
+
+    <string name="lib_test_1">Test1</string>
+    <string name="lib_test_2">Test2</string>
+    <string name="lib_test_3">Test3</string>
+    <string name="lib_test_4">Test4</string>
+    <string name="lib_test_5">Test5</string>
+
+</resources>

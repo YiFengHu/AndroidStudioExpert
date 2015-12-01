@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--
+        tools namespace
+        tools:showIn
+    -->
+
+    <TextView
+        android:id="@+id/chooseIcon_titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose an icon"
+        android:typeface="serif"
+        android:textSize="25sp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold|italic"
+        android:padding="5dp"
+        android:background="?attr/colorAccent"/>
+
+    <GridView
+        android:id="@+id/chooseIcon_gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:verticalSpacing="10dp"/>
+
+    <!--
+        tools:numColumns
+        tools:listitem
+    -->
+
+</LinearLayout>

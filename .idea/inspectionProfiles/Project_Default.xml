@@ -1,0 +1,17 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="true" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <replaceConfiguration name="dont add description in string resource" text="&lt;string name=&quot;$name$&quot; description=&quot;$desc$&quot;&gt;$values$&lt;/string&gt;" recursive="false" caseInsensitive="true" type="XML" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="&lt;string name=&quot;$name$&quot;&gt;$values$&lt;/string&gt;">
+        <constraint name="name" within="" contains="" />
+        <constraint name="desc" within="" contains="" />
+        <constraint name="values" within="" contains="" />
+      </replaceConfiguration>
+      <replaceConfiguration name="use setBackground instead" text="$view$.setBackgroundDrawable($param$)" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="$view$.setBackground($param$)">
+        <constraint name="view" within="" contains="" />
+        <constraint name="param" within="" contains="" />
+      </replaceConfiguration>
+    </inspection_tool>
+  </profile>
+</component>

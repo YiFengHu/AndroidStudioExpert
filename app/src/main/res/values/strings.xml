@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">AndroidStudioExpert</string>
+
+
+    <string name="confirm" description="confirm button string">confirm</string>
+    <string name="start" description="start button string">start</string>
+    <string name="cancel" description="cancel button string">cancel</string>
+    <string name="stop" description="stop button string">stop</string>
+    <string name="browse_expand" description="expand string for browse page">Expand</string>
+    <string name="browse_shrink" description="shrink string for browse page">Shrink</string>
+    <string name="browse_click" description="click string for browse page">Click</string>
+    <string name="main_play" description="Play hint string in main page">Let\'s Play</string>
+    <string name="main_leave" description="Leave hint string in main page">I want to leave!</string>
+    <string name="main_share" description="Share hint string in main page">Share This!</string>
+
+
+
+    <string name="main_post" description="Post hint string in main page">Post This!</string>
+
+
+    <string name="main_user_id">User Id</string>
+    <string name="main_user_name">User Name</string>
+    <string name="main_phone">Phone</string>
+
+</resources>
