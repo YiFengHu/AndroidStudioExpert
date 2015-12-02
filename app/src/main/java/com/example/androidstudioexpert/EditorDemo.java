@@ -2,12 +2,11 @@ package com.example.androidstudioexpert;
 
 import android.app.Activity;
 import android.content.Context;
-import android.graphics.BitmapFactory;
 import android.graphics.drawable.Drawable;
 import android.view.View;
 
-import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Created by Roder Hu on 2015/12/1.
@@ -70,7 +69,7 @@ public class EditorDemo extends Activity{
 
 
 
-    public String completionNewVariable(String first, String second){
+    public String completionNewVariable(String first, String second) {
         //new Constructor().var
         return new String();
     }

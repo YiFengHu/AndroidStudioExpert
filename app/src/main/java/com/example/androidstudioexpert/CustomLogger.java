@@ -12,6 +12,7 @@ package com.example.androidstudioexpert;
 
 import android.util.Log;
 
+@SuppressWarnings("SSBasedInspection")
 public class CustomLogger {
     private static boolean isLogEnable = true;
 
