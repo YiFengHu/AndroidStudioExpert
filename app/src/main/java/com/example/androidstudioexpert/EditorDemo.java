@@ -6,6 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -214,7 +215,7 @@ public class EditorDemo extends Activity{
     public String liveTemplate(int first, String second, float third){
         //logi, logt, logm, logr
         String result = "";
-        Log.i("","");
+        Log.i("", "");
         return result;
     }
 
@@ -258,9 +259,10 @@ public class EditorDemo extends Activity{
         //<$tag$ $attribute$=" $value$ "/> - resource files
         //$Instance$.$MethodCall$($Arguments$) - methods
 
-        //https://www.jetbrains.com/idea/help/structural-search-and-replace-examples.html
+        //Replace Examples: https://www.jetbrains.com/idea/help/structural-search-and-replace-examples.html
         view.setBackgroundDrawable(drawable);
 
+        //Search Action: Inspections
     }
 
 
@@ -282,4 +284,24 @@ public class EditorDemo extends Activity{
         //http://tools.android.com/tech-docs/tools-attributes
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public void debugTools(){
+        //log trace
+
+    }
 }
