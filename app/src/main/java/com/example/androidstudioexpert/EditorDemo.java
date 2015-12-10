@@ -3,7 +3,9 @@ package com.example.androidstudioexpert;
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.View;
+import android.widget.ListView;
 
 import java.util.List;
 
@@ -33,6 +35,7 @@ public class EditorDemo extends Activity{
 
         //Project panel : alt + 1
         //Panel: alt + $number$
+
     }
 
 
@@ -56,10 +59,45 @@ public class EditorDemo extends Activity{
 
 
 
+
+
+
+
+
+
     public boolean completionSelect(String first, String second){
         //tab
         return first.contains(second);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    public String selection(String string){
+        //action: extend selection
+        //Extend: ctrl + W (alt + up arrow)
+        //Shrink: ctrl + shift + W (alt + down arrow)
+        //alt + down
+        return string.length() > 0 ? string.substring(0, string.length() -5)
+                : string;
+    }
+
+
+
+
+
 
 
 
@@ -74,20 +112,18 @@ public class EditorDemo extends Activity{
         return new String();
     }
 
+    public static class OneTowThreeFourFive{
 
-
-
-
-
-
-
-    public String selection(String string){
-        //action: extend selection
-        //Extend: ctrl + W (alt + up)
-        //alt + down
-        return string.length() > 0 ? string.substring(0, string.length() -5)
-                : string;
     }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -115,6 +151,15 @@ public class EditorDemo extends Activity{
 
 
 
+
+
+
+
+
+
+
+
+
     public void instanceCheck(Object obj){
         if(obj instanceof Context){
             //Cast objects
@@ -123,6 +168,10 @@ public class EditorDemo extends Activity{
 
         }
     }
+
+
+
+
 
 
 
@@ -164,10 +213,17 @@ public class EditorDemo extends Activity{
 
     public String liveTemplate(int first, String second, float third){
         //logi, logt, logm, logr
-
         String result = "";
+        Log.i("","");
         return result;
     }
+
+
+
+
+
+
+
 
 
 
@@ -206,6 +262,8 @@ public class EditorDemo extends Activity{
         view.setBackgroundDrawable(drawable);
 
     }
+
+
 
 
 
